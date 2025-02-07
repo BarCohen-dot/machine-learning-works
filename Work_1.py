@@ -1,3 +1,21 @@
+# -*- summary -*-
+"""
+The code **trains and evaluates a Naive Bayes classifier** to classify Iris flower species based on attributes like sepal and petal length and width.  
+
+1. **Loads the Iris dataset** and visualizes the frequency of each flower species using a bar chart.  
+2. **Splits the data** into training and testing sets (70% training, 30% testing).  
+3. **Trains a Naive Bayes classifier (GaussianNB)** on the training data.  
+4. **Predicts flower species** on the test set and computes **accuracy**.  
+5. **Displays the confusion matrix** to visualize classification performance.  
+6. **Performs 5-fold cross-validation** and reports accuracy scores for each fold, alongside the mean accuracy.  
+7. **Calculates the conditional probabilities** of each flower species using the normal distribution for each feature.  
+8. **Visualizes 5-fold cross-validation accuracy** through a line plot.  
+9. **Prints the classification results**, including accuracy and confusion matrix, using a custom function for model evaluation.
+
+The approach provides a comprehensive evaluation of the Naive Bayes classifier on the Iris dataset, offering insights into classification accuracy and model performance.
+"""
+# -*- summary -*-
+
 from sklearn import datasets
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.naive_bayes import GaussianNB
