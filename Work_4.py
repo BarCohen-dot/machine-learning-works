@@ -1,23 +1,12 @@
 # -*- summary -*-
 """
-Example Of Hierarchical Clustering implementation . In this code, you'll see:
-    1. Implementation of Hierarchical Clustering covid19 stock dataset
-    2. Plotting the dendrogram
-    3. Plotting a scatter plot for the data after assigning each sample to a cluster
-
-Notes:
-    1. In order to run this script, the dataset must be supplied.
-       If the dataset is in the same directory of this script, then only the name of the dataset 
-       must be supplied otherwise, the whole dataset's(In this case csv file) path must be supplied.
-    
-    2. Since we're running the HC for two columns, having different value ranges,
-       therefore we need to scale our data.
-      
-    3. In this script, we're using the following libraries: 
-        A. sklearn library for clustering methods
-        B. scipy for plotting the dendrogram
+The code performs hierarchical clustering on a dataset (covid19_stocks.csv).
+It normalizes the data using Min-Max Scaling before clustering.
+Different linkage methods (single, complete, average, ward) are tested for clustering.
+For each method, scatter plots visualize cluster assignments.
+Dendrograms illustrate hierarchical clustering structure.
+The approach helps analyze relationships between stock data points.
 """
-
 # -*- summary -*-
 
 import numpy as np 
