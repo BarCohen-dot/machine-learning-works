@@ -1,3 +1,14 @@
+# -*- summary -*-
+"""
+The code performs clustering using K-Means on household income and expenditure data.
+The data is normalized using Min-Max Scaling.
+The algorithm computes distances, assigns points to clusters, and updates centers until convergence.
+The Elbow method is used to determine the optimal number of clusters (K=3).
+Graphs visualize the clusters and compare different expenditure categories.
+The result identifies household spending patterns.
+"""
+# -*- summary -*-
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
