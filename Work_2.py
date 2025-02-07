@@ -1,3 +1,19 @@
+# -*- summary -*-
+"""
+The code **trains and evaluates a Decision Tree model** to classify drug types based on patient attributes.  
+
+1. **Loads and explores the dataset** (`drug200.csv`), displaying key statistics.  
+2. **Preprocesses categorical data** using one-hot encoding.  
+3. **Splits the data** into training and test sets (**70% training, 30% testing**).  
+4. **Trains a Decision Tree classifier** using **entropy** as the splitting criterion.  
+5. **Evaluates model accuracy** and **visualizes the decision tree**.  
+6. **Tests various tree depths (1–10)**, plots corresponding trees, and analyzes accuracy trends.  
+7. **Plots accuracy vs. tree depth** and evaluates the optimal depth for better performance.
+
+The approach helps **optimize decision tree depth** for better classification performance.
+"""
+# -*- summary -*-
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree
