@@ -68,7 +68,7 @@ def create_scatter_plot(x, y, clusters, x_label, y_label):
     
 #==================================================================================================================
 # קריאת הנתונים מתוך קובץ CSV
-data = pd.read_csv("Family Income and Expenditure.csv")
+data = pd.read_csv("Family Income and Expenditure.csv")  # Enter the file name or path to the file.
 
 # חיתוך הנתונים לשתי עמודות: הכנסה כוללת של משק הבית ,והוצאות כוללות על מזון
 mini_data = data[['Total Household Income', 'Total Food Expenditure']]
