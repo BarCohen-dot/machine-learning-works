@@ -21,13 +21,10 @@ Welcome to my collection of machine learning works! This repository showcases va
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/ml-works.git
-Install dependencies:
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Run any script to explore machine learning in action!
-📑 Contributing
+
+##📑 Contributing
 Feel free to fork this repo and create pull requests. Contributions, suggestions, and improvements are always welcome!
 
 Happy learning and coding! 😊
