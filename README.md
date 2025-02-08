@@ -1,4 +1,4 @@
-# Machine Learning Works 🚀
+# Machine Learning - Works 🚀
 
 Welcome to my collection of machine learning works! This repository showcases various techniques, algorithms, and models I’ve been working on. From data preprocessing to training and evaluation, you'll find everything you need to understand how machine learning works.
 
